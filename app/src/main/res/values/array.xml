@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="spinner_icons">
+        <item>@drawable/bomba</item>
+        <item>@drawable/bomber</item>
+        <item>@drawable/mina_naval</item>
+        <item>@drawable/granada</item>
+        <item>@drawable/dinamita</item>
+        <item>@drawable/botella</item>
+    </array>
+</resources>

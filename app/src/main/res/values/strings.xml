@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">BUSCAMINAS_MANUEL</string>
+    <!-- Definir los niveles aquí -->
+    <string-array name="levels_array">
+        <item>Fácil</item>
+        <item>Medio</item>
+        <item>Difícil</item>
+    </string-array>
+
+    <string-array name="bombas_array">
+        <item>Bomba Clásica</item>
+        <item>Torpedo</item>
+        <item>Mina Submarina</item>
+        <item>Granada</item>
+        <item>Dinamita</item>
+        <item>Coctel Molotov</item>
+    </string-array>
+
+    <string-array name="sonido_array">
+        <item>Áctivado</item>
+        <item>Desactivado</item>
+    </string-array>
+</resources>

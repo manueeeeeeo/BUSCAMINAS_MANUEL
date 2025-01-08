@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/borde_redondo">
+
+
+        <TextView
+            android:id="@+id/txtTituEspe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Configuraciones de Sonido:"
+            android:textColor="#00FF53"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="15dp"/>
+
+        <Spinner
+            android:id="@+id/spinnerSonido"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="36dp"
+            android:layout_marginRight="36dp"
+            android:layout_marginBottom="15dp"
+            android:entries="@array/sonido_array"/>
+
+        <Button
+            android:id="@+id/btnConfiSonido"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Elegir"
+            android:textSize="23sp"
+            android:textStyle="bold"
+            android:backgroundTint="#00FF53"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="15dp"/>
+    </LinearLayout>
+
+</RelativeLayout>

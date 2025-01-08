@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/borde_redondo">
+
+
+        <TextView
+            android:id="@+id/txtGanado"
+            android:layout_width="261dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginBottom="20dp"
+            android:text="PARTIDA FINALIZADA"
+            android:textColor="#11FF00"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtInfo11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Has conseguido completar el juego.\nMuy bien, ademas has ganado.\nEsperamos volver a verte."
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="@color/black"/>
+
+        <Button
+            android:id="@+id/btnAceptar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Aceptar"
+            android:textStyle="bold"
+            android:textSize="23sp"
+            android:backgroundTint="#16A906"
+            android:layout_marginBottom="30dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+
+</RelativeLayout>
